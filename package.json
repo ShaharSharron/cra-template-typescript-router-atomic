@@ -3,53 +3,32 @@
 	"version": "1.0.0",
 	"description": "Create React App template which uses the atomic methodology with typescript, axios, react-query, sass and react-router-dom",
 	"create-react-template": "cra-template-typescript-router-atomic",
-	"private": false,
-	"scripts": {
-		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"test": "react-scripts test",
-		"eject": "react-scripts eject"
+	"keywords": [
+		"react",
+		"create-react-app",
+		"template",
+		"typescript",
+		"eslint",
+		"prettier",
+		"editorconfig",
+		"sass",
+		"axios",
+		"react-query",
+		"react-router-dom"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/daltonmenezes/cra-template-good-start.git"
 	},
-	"dependencies": {
-		"@tanstack/react-query": "^5.18.1",
-		"@tanstack/react-query-devtools": "^5.18.1",
-		"@testing-library/jest-dom": "^5.17.0",
-		"@testing-library/react": "^13.4.0",
-		"@testing-library/user-event": "^13.5.0",
-		"axios": "^1.6.7",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
-		"react-router-dom": "^6.22.0",
-		"react-scripts": "^5.0.1",
-		"sass": "^1.70.0",
-		"typescript": "^4.9.5",
-		"uuid": "^9.0.1",
-		"web-vitals": "^3.5.2"
+	"license": "MIT",
+	"engines": {
+		"node": ">=16"
 	},
-	"devDependencies": {
-		"@types/jest": "^27.5.2",
-		"@types/node": "^16.18.79",
-		"@types/react": "^18.2.54",
-		"@types/react-dom": "^18.2.18",
-		"@types/uuid": "^9.0.8",
-		"@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+	"bugs": {
+		"url": "https://github.com/daltonmenezes/cra-template-good-start/issues"
 	},
-	"eslintConfig": {
-		"extends": [
-			"react-app",
-			"react-app/jest"
-		]
-	},
-	"browserslist": {
-		"production": [
-			">0.2%",
-			"not dead",
-			"not op_mini all"
-		],
-		"development": [
-			"last 1 chrome version",
-			"last 1 firefox version",
-			"last 1 safari version"
-		]
-	}
+	"files": [
+		"template",
+		"template.json"
+	]
 }
