@@ -1,7 +1,9 @@
 {
-	"name": "player-stats",
-	"version": "0.1.0",
-	"private": true,
+	"name": "cra-template-typescript-router-atomic",
+	"version": "1.0.0",
+	"description": "Create React App template which uses the atomic methodology with typescript, axios, react-query, sass and react-router-dom",
+	"create-react-template": "cra-template-typescript-router-atomic",
+	"private": false,
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
